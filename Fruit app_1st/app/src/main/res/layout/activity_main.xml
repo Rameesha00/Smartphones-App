@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFE989"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/simpleSpinner"
+        android:layout_width="238dp"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="168dp"
+        android:background="#5EC3C3C3"
+        android:foregroundTint="#3949AB"
+        android:hint="Enter fruit name"
+        android:padding="10px"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/simpleSpinner2"
+        android:layout_width="54dp"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:layout_marginRight="36dp"
+        android:text="Milk"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnresult"
+        android:layout_width="424dp"
+        android:layout_height="72dp"
+        android:layout_marginBottom="96dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Show Result!"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:id="@+id/resulttextview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="296dp"
+        android:gravity="center"
+        android:text="Result"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
